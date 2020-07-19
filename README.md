@@ -1,7 +1,7 @@
 ![Logo - PluginsManager](https://i.imgur.com/sXKv0sZ.png)
 # Plugins Manager
 Hello and *thank you* for using **Plugins Manager**. In case you have a question or a problem I invite you to contact me via [Discord](https://discord.gg/FT4R2wf)!
-If you like my plugin, I'll be very happy if you give it 5 stars on its thread! :)
+If you like my plugin, I'll be very happy if you give it 5 stars on its [thread](https://www.spigotmc.org/resources/pluginsmanager-1-8-1-16.81661/)! :)
 
 ## Commands & Permissions
 
