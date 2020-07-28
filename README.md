@@ -1,5 +1,7 @@
-![Logo - PluginsManager](https://i.imgur.com/sXKv0sZ.png)
+<p align="center"><img src="https://i.imgur.com/sXKv0sZ.png" /></p>
+
 # Plugins Manager
+
 Hello and *thank you* for using **Plugins Manager**. In case you have a question or a problem I invite you to contact me via [Discord](https://discord.gg/FT4R2wf)!
 If you like my plugin, I'll be very happy if you give it 5 stars on its [thread](https://www.spigotmc.org/resources/pluginsmanager-1-8-1-16.81661/)! :)
 
@@ -15,27 +17,20 @@ If you like my plugin, I'll be very happy if you give it 5 stars on its [thread]
 > the possibility to deactivate, activate, reload and update them.
 
 ![Plugins List Menu - PluginsManager](https://i.imgur.com/qVkOJVs.png)
-- **`/pluginsmanager reload <plugin>`** - *Perm*. `pluginsmanager.commands.reload`
-> Reload the selected plugin.
-
-- **`/pluginsmanager enable <plugin>`** - *Perm*. `pluginsmanager.commands.enable`
-> Enable the selected plugin.
-
-- **`/pluginsmanager enableall`** - *Perm*. `pluginsmanager.commands.enableall`
-> Enables all plugins on the server.
-
-- **`/pluginsmanager disable <plugin>`** - *Perm*. `pluginsmanager.commands.disable`
-> Disable the selected plugin.
-
-- **`/pluginsmanager disableall`** - *Perm*. `pluginsmanager.commands.disableall`
-> Disables all plugins on the server.
+|Command | Permission | Description |
+| ------ | ---------- | ----------- |
+| `/pluginsmanager reload <plugin>` | `pluginsmanager.commands.reload` | Reload the selected plugin. |
+| `/pluginsmanager enable <plugin>` | `pluginsmanager.commands.enable` | Enable the selected plugin. |
+| `/pluginsmanager enableall` | `pluginsmanager.commands.enableall` | Enables all plugins on the server. |
+| `/pluginsmanager disable <plugin>` | `pluginsmanager.commands.disable` | Disable the selected plugin. |
+| `/pluginsmanager disableall` | `pluginsmanager.commands.disableall` | Disables all plugins on the server. |
 
 ## Potential issues
 
 Some plugins (such as [ViaBackWard](https://www.spigotmc.org/resources/viabackwards.27448/) for example) cannot be reloaded correctly without a server reboot.
 
 ## Configuration file - settings.yml
-
+```yml
     #  
     # <-----------------------------------PluginsManager----------------------------------->  
     #             Thank you for using PluginsManager, the Plugins management plugin.  
@@ -52,6 +47,6 @@ Some plugins (such as [ViaBackWard](https://www.spigotmc.org/resources/viabackwa
     Prefix: "&7[&bPlugins&3Manager&7] "  
     Command_Aliases: [pluginmanager, pr, pger]  
 
-    #Not to be touched  
+    #Should not be touched  
     Version: 1
-
+```
